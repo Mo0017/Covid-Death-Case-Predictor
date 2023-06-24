@@ -15,8 +15,8 @@ import plotly.express as px
 from prophet import Prophet
 pd.options.mode.chained_assignment = None  # default='warn'
 #Initializing Data
-cases = pd.read_csv('CodeWithMosh\AI4ALL\Covid-Cases.csv')
-vaccs = pd.read_csv('CodeWithMosh\AI4ALL\State-Vacs.csv')
+cases = pd.read_csv('\AI4ALL\Covid-Cases.csv')
+vaccs = pd.read_csv('\AI4ALL\State-Vacs.csv')
 
 #Checking for Null values
 print(cases.isnull().sum())
